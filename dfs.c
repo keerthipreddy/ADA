@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int a[20][20],reach[20],n;
 void dfs(int v) {
 	int i;
