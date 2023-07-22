@@ -79,7 +79,7 @@ void main()
     }
     if(n<=20)
     {
-    	printf("before sorting \n");
+    	printf("before merge sort \n");
         print(arr,n);
 	}
    
@@ -91,7 +91,7 @@ void main()
     ts=(float)(et-st)/CLOCKS_PER_SEC;
     if(n<=20)
     {
-    	printf("\nafter sorting using mergesort\n");
+    	printf("\nafter mergesort\n");
         print(arr,n);
 	}
    
